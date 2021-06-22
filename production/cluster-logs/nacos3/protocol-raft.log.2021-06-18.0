@@ -1,0 +1,38 @@
+2021-06-18 05:06:17,502 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,506 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,506 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,502 ERROR Fail to refresh route configuration for group : nacos_config, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,502 ERROR ReadIndex has error : No leader at term 31.
+
+2021-06-18 05:06:17,505 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,532 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,533 ERROR ReadIndex has error : No leader at term 31.
+
+2021-06-18 05:06:17,533 ERROR Fail to refresh route configuration for group : nacos_config, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,537 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,636 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=30, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2021-06-18 05:06:17,674 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=30, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2021-06-18 05:06:17,679 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:17,704 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=29, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2021-06-18 05:06:17,704 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=30, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2021-06-18 05:06:19,444 ERROR ReadIndex has error : read-index request timeout
+
+2021-06-18 05:06:19,522 ERROR ReadIndex has error : read-index request timeout
+
+2021-06-18 05:06:22,672 ERROR Fail to refresh route configuration for group : nacos_config, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2021-06-18 05:06:27,275 INFO This Raft event changes : RaftEvent{groupId='nacos_config', leader='nacos2:7848', term=32, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+

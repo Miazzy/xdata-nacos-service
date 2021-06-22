@@ -1,0 +1,683 @@
+2021-06-16 05:24:23,678 INFO Node <naming_persistent_service/nacos1:7848> term 27 start preVote.
+
+2021-06-16 05:24:23,679 WARN Node <naming_persistent_service_v2/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=27, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-16 05:24:24,088 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=27, lastLogIncluded=0, lastLogIndex=27, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,088 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=27, lastLogIncluded=0, lastLogIndex=27, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:23,678 WARN Node <nacos_config/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=28, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-16 05:24:24,090 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=48, lastLogIncluded=0, lastLogIndex=48, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,090 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=48, lastLogIncluded=0, lastLogIndex=48, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:23,690 WARN Node <naming_instance_metadata/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=27, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-16 05:24:24,090 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,090 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=118, lastLogIncluded=0, lastLogIndex=118, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,090 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=118, lastLogIncluded=0, lastLogIndex=118, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,090 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-16 05:24:24,091 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-16 05:24:23,690 WARN Node <naming_service_metadata/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=26, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-16 05:24:24,091 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=26, lastLogIncluded=0, lastLogIndex=26, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,091 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=26, lastLogIncluded=0, lastLogIndex=26, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-16 05:24:24,097 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-16 05:24:24,100 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:23,684 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=27, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2021-06-16 05:24:24,103 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-16 05:24:24,128 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,128 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,129 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,129 ERROR handleRequest group_id: "naming_service_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,132 INFO Node <nacos_config/nacos1:7848> received PreVoteRequest from nacos3:7848, term=29, currTerm=28, granted=true, requestLastLogId=LogId [index=48, term=28], lastLogId=LogId [index=48, term=28].
+
+2021-06-16 05:24:24,149 INFO Node <naming_persistent_service/nacos1:7848> received PreVoteResponse from nacos2:7848, term=27, granted=true.
+
+2021-06-16 05:24:24,149 INFO Node <naming_persistent_service/nacos1:7848> start vote and grant vote self, term=27.
+
+2021-06-16 05:24:24,062 WARN [GRPC] failed to send response: {}.
+
+io.grpc.StatusRuntimeException: CANCELLED: call already cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:341)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer$1.sendResponse(GrpcServer.java:153)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:464)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.runTask(MpscSingleThreadExecutor.java:352)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.run(MpscSingleThreadExecutor.java:336)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor.lambda$doStartWorker$3(MpscSingleThreadExecutor.java:263)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,185 INFO Node <nacos_config/nacos1:7848> received RequestVoteRequest from nacos3:7848, term=29, currTerm=28.
+
+2021-06-16 05:24:24,197 INFO Node <naming_service_metadata/nacos1:7848> received PreVoteRequest from nacos2:7848, term=27, currTerm=26, granted=true, requestLastLogId=LogId [index=26, term=26], lastLogId=LogId [index=26, term=26].
+
+2021-06-16 05:24:24,198 ERROR handleRequest group_id: "naming_service_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,198 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,199 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,199 ERROR handleRequest group_id: "naming_service_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,199 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,204 INFO Node <naming_service_metadata/nacos1:7848> received RequestVoteRequest from nacos2:7848, term=27, currTerm=26.
+
+2021-06-16 05:24:24,209 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,221 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=28, votedFor=nacos1:7848, cost time=36 ms
+
+2021-06-16 05:24:24,255 INFO Node <naming_persistent_service/nacos1:7848> received PreVoteRequest from nacos2:7848, term=28, currTerm=28, granted=true, requestLastLogId=LogId [index=39, term=27], lastLogId=LogId [index=39, term=27].
+
+2021-06-16 05:24:24,255 INFO Node <naming_persistent_service/nacos1:7848> received RequestVoteRequest from nacos2:7848, term=28, currTerm=28.
+
+2021-06-16 05:24:24,256 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=27, status=Status[ERAFTTIMEDOUT<10001>: A follower's leader_id is reset to NULL as it begins to request_vote.]].
+
+2021-06-16 05:24:24,262 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,274 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=27, votedFor=0.0.0.0:0, cost time=65 ms
+
+2021-06-16 05:24:24,281 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=29, votedFor=0.0.0.0:0, cost time=91 ms
+
+2021-06-16 05:24:24,303 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=27, votedFor=nacos2:7848, cost time=30 ms
+
+2021-06-16 05:24:24,304 ERROR handleRequest group_id: "naming_service_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_service_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,305 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,310 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=29, votedFor=nacos3:7848, cost time=28 ms
+
+2021-06-16 05:24:24,310 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,310 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,311 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,313 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,321 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,322 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,324 WARN Node <naming_persistent_service/nacos1:7848> received invalid PreVoteResponse from nacos3:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2021-06-16 05:24:24,324 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:24,330 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:25,227 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:26,205 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:26,581 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:26,729 ERROR handleRequest group_id: "naming_instance_metadata"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:24:28,821 INFO Node <naming_instance_metadata/nacos1:7848> received PreVoteRequest from nacos2:7848, term=28, currTerm=27, granted=true, requestLastLogId=LogId [index=118, term=27], lastLogId=LogId [index=118, term=27].
+
+2021-06-16 05:24:28,825 INFO Node <naming_instance_metadata/nacos1:7848> received RequestVoteRequest from nacos2:7848, term=28, currTerm=27.
+
+2021-06-16 05:24:28,848 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=28, votedFor=0.0.0.0:0, cost time=19 ms
+
+2021-06-16 05:24:28,863 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=28, votedFor=nacos2:7848, cost time=14 ms
+
+2021-06-16 05:24:29,247 INFO Node <naming_persistent_service_v2/nacos1:7848> received PreVoteRequest from nacos3:7848, term=28, currTerm=27, granted=true, requestLastLogId=LogId [index=27, term=27], lastLogId=LogId [index=27, term=27].
+
+2021-06-16 05:24:29,250 INFO Node <naming_persistent_service_v2/nacos1:7848> received PreVoteRequest from nacos2:7848, term=28, currTerm=27, granted=true, requestLastLogId=LogId [index=27, term=27], lastLogId=LogId [index=27, term=27].
+
+2021-06-16 05:24:29,257 INFO Node <naming_persistent_service_v2/nacos1:7848> received RequestVoteRequest from nacos3:7848, term=28, currTerm=27.
+
+2021-06-16 05:24:30,255 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=28, votedFor=0.0.0.0:0, cost time=994 ms
+
+2021-06-16 05:24:30,266 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=28, votedFor=nacos3:7848, cost time=11 ms
+
+2021-06-16 05:24:30,271 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-16 05:26:44,555 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_28.
+
+2021-06-16 05:26:44,555 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_28.
+
+2021-06-16 05:26:44,555 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_27.
+
+2021-06-16 05:29:57,289 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_119.
+
+2021-06-16 05:29:57,289 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_119.
+
+2021-06-16 05:29:57,289 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_118.
+
+2021-06-16 05:30:56,891 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_40.
+
+2021-06-16 05:30:56,891 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_40.
+
+2021-06-16 05:30:56,891 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_39.
+
+2021-06-16 05:49:58,048 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_27.
+
+2021-06-16 05:49:58,048 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_27.
+
+2021-06-16 05:49:58,048 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_26.
+
+2021-06-16 05:52:03,711 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_49.
+
+2021-06-16 05:52:03,711 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_49.
+
+2021-06-16 05:52:03,712 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_48.
+
+2021-06-16 05:54:28,748 INFO Destroyed peer request context for nacos_config/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-16 05:54:28,750 INFO Destroyed peer request context for naming_persistent_service/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-16 05:54:28,753 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-16 05:54:29,148 INFO Destroyed peer request context for naming_service_metadata/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-16 05:54:29,148 INFO Destroyed peer request context for naming_persistent_service/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-16 05:54:29,149 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-16 05:54:30,232 INFO Connection disconnected: /172.19.0.2:53678
+
+2021-06-16 05:54:31,586 INFO Connection disconnected: /172.19.0.3:37870
+
+2021-06-16 05:54:34,257 INFO Connection disconnected: /172.19.0.4:49628
+
+2021-06-16 05:54:35,277 INFO Connection disconnected: /172.19.0.4:49510
+
+2021-06-16 05:54:38,396 INFO Node <nacos_config/nacos1:7848> received PreVoteRequest from nacos3:7848, term=30, currTerm=29, granted=true, requestLastLogId=LogId [index=49, term=29], lastLogId=LogId [index=49, term=29].
+
+2021-06-16 05:54:38,398 INFO Node <nacos_config/nacos1:7848> received RequestVoteRequest from nacos3:7848, term=30, currTerm=29.
+
+2021-06-16 05:54:38,398 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=29, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2021-06-16 05:54:38,405 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=30, votedFor=0.0.0.0:0, cost time=7 ms
+
+2021-06-16 05:54:38,411 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=30, votedFor=nacos3:7848, cost time=6 ms
+
+2021-06-16 06:22:02,912 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_50.
+
+2021-06-16 06:22:02,912 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_50.
+
+2021-06-16 06:22:02,912 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_49.
+
+2021-06-16 06:24:40,613 INFO Connection disconnected: /172.19.0.3:34044
+
+2021-06-16 06:24:42,427 INFO Connection disconnected: /172.19.0.2:49918
+
+2021-06-16 15:30:56,613 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_44.
+
+2021-06-16 15:30:56,613 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_44.
+
+2021-06-16 15:30:56,613 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_40.
+
+2021-06-16 16:00:56,612 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_48.
+
+2021-06-16 16:00:56,612 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_48.
+
+2021-06-16 16:00:56,612 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_44.
+
+2021-06-16 17:29:57,296 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_123.
+
+2021-06-16 17:29:57,296 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_123.
+
+2021-06-16 17:29:57,296 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_119.
+

@@ -1,0 +1,24 @@
+2021-06-22 01:02:34,893 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-22 01:02:34,894 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-22 01:02:34,899 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-22 01:02:34,905 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+
+2021-06-22 07:02:34,888 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-22 07:02:34,888 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-22 07:02:34,897 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-22 07:02:34,903 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+
+2021-06-22 13:02:34,928 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-22 13:02:34,928 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-22 13:02:34,933 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-22 13:02:34,938 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+

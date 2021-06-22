@@ -1,0 +1,591 @@
+2021-06-20 00:21:59,864 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_392.
+
+2021-06-20 00:21:59,864 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_392.
+
+2021-06-20 00:21:59,864 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_389.
+
+2021-06-20 00:51:59,726 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_395.
+
+2021-06-20 00:51:59,730 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_395.
+
+2021-06-20 00:51:59,730 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_392.
+
+2021-06-20 01:22:01,112 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_398.
+
+2021-06-20 01:22:01,112 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_398.
+
+2021-06-20 01:22:01,113 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_395.
+
+2021-06-20 01:52:00,004 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_401.
+
+2021-06-20 01:52:00,004 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_401.
+
+2021-06-20 01:52:00,005 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_398.
+
+2021-06-20 02:21:59,675 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_404.
+
+2021-06-20 02:21:59,675 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_404.
+
+2021-06-20 02:21:59,675 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_401.
+
+2021-06-20 02:51:59,608 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_407.
+
+2021-06-20 02:51:59,609 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_407.
+
+2021-06-20 02:51:59,609 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_404.
+
+2021-06-20 03:21:59,686 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_410.
+
+2021-06-20 03:21:59,686 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_410.
+
+2021-06-20 03:21:59,686 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_407.
+
+2021-06-20 03:51:59,893 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_413.
+
+2021-06-20 03:51:59,894 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_413.
+
+2021-06-20 03:51:59,894 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_410.
+
+2021-06-20 04:21:59,863 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_416.
+
+2021-06-20 04:21:59,863 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_416.
+
+2021-06-20 04:21:59,863 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_413.
+
+2021-06-20 04:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_419.
+
+2021-06-20 04:51:59,787 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_419.
+
+2021-06-20 04:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_416.
+
+2021-06-20 05:07:09,029 WARN Node <naming_persistent_service_v2/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=31, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-20 05:07:09,029 WARN Node <nacos_config/nacos1:7848> steps down when alive nodes don't satisfy quorum, term=33, deadNodes=nacos3:7848,nacos2:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2021-06-20 05:07:09,030 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=420, lastLogIncluded=0, lastLogIndex=420, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-20 05:07:09,030 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=420, lastLogIncluded=0, lastLogIndex=420, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-20 05:07:09,030 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-20 05:07:09,031 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2021-06-20 05:07:09,035 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=31, lastLogIncluded=0, lastLogIndex=31, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower] is going to quit
+
+2021-06-20 05:07:09,035 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=31, lastLogIncluded=0, lastLogIndex=31, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower] is going to quit
+
+2021-06-20 05:07:09,054 INFO Node <naming_instance_metadata/nacos1:7848> term 31 start preVote.
+
+2021-06-20 05:07:09,054 INFO Node <naming_persistent_service/nacos1:7848> term 31 start preVote.
+
+2021-06-20 05:07:09,054 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos2:7848, term=31, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos2:7848.]].
+
+2021-06-20 05:07:09,057 WARN [GRPC] failed to send response: {}.
+
+io.grpc.StatusRuntimeException: CANCELLED: call already cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:341)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer$1.sendResponse(GrpcServer.java:153)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:464)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.runTask(MpscSingleThreadExecutor.java:352)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.run(MpscSingleThreadExecutor.java:336)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor.lambda$doStartWorker$3(MpscSingleThreadExecutor.java:263)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,058 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos2:7848, term=31, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos2:7848.]].
+
+2021-06-20 05:07:09,134 WARN [GRPC] failed to send response: {}.
+
+io.grpc.StatusRuntimeException: CANCELLED: call already cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:341)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer$1.sendResponse(GrpcServer.java:153)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:464)
+	at com.alipay.sofa.jraft.rpc.impl.core.AppendEntriesRequestProcessor.processRequest0(AppendEntriesRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.runTask(MpscSingleThreadExecutor.java:352)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor$Worker.run(MpscSingleThreadExecutor.java:336)
+	at com.alipay.sofa.jraft.util.concurrent.MpscSingleThreadExecutor.lambda$doStartWorker$3(MpscSingleThreadExecutor.java:263)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,225 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,225 WARN [GRPC] failed to send response: {}.
+
+io.grpc.StatusRuntimeException: CANCELLED: call already cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:341)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer$1.sendResponse(GrpcServer.java:153)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:59)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,227 INFO Node <nacos_config/nacos1:7848> received PreVoteRequest from nacos2:7848, term=34, currTerm=33, granted=true, requestLastLogId=LogId [index=420, term=33], lastLogId=LogId [index=420, term=33].
+
+2021-06-20 05:07:09,255 INFO Node <nacos_config/nacos1:7848> received RequestVoteRequest from nacos2:7848, term=34, currTerm=33.
+
+2021-06-20 05:07:09,403 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=34, votedFor=0.0.0.0:0, cost time=145 ms
+
+2021-06-20 05:07:09,458 INFO Save raft meta, path=/home/nacos/data/protocol/raft/nacos_config/meta-data, term=34, votedFor=nacos2:7848, cost time=46 ms
+
+2021-06-20 05:07:09,459 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,594 INFO Node <nacos_config/nacos1:7848> received PreVoteRequest from nacos3:7848, term=34, currTerm=34, granted=true, requestLastLogId=LogId [index=420, term=33], lastLogId=LogId [index=420, term=33].
+
+2021-06-20 05:07:09,597 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,597 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,600 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,600 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,601 INFO Node <naming_instance_metadata/nacos1:7848> received PreVoteRequest from nacos3:7848, term=32, currTerm=31, granted=true, requestLastLogId=LogId [index=126, term=31], lastLogId=LogId [index=126, term=31].
+
+2021-06-20 05:07:09,603 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,603 ERROR handleRequest group_id: "nacos_config"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:09,613 INFO Node <naming_service_metadata/nacos1:7848> ignore PreVoteRequest from nacos2:7848, term=31, currTerm=30, because the leader nacos3:7848's lease is still valid.
+
+2021-06-20 05:07:09,613 INFO Node <naming_service_metadata/nacos1:7848> received RequestVoteRequest from nacos2:7848, term=31, currTerm=30.
+
+2021-06-20 05:07:09,614 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=30, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2021-06-20 05:07:09,617 INFO Node <naming_persistent_service_v2/nacos1:7848> received PreVoteRequest from nacos3:7848, term=32, currTerm=31, granted=true, requestLastLogId=LogId [index=31, term=31], lastLogId=LogId [index=31, term=31].
+
+2021-06-20 05:07:09,617 INFO Node <naming_instance_metadata/nacos1:7848> received PreVoteResponse from nacos2:7848, term=31, granted=true.
+
+2021-06-20 05:07:09,617 INFO Node <naming_instance_metadata/nacos1:7848> start vote and grant vote self, term=31.
+
+2021-06-20 05:07:09,638 INFO Node <naming_persistent_service_v2/nacos1:7848> received RequestVoteRequest from nacos3:7848, term=32, currTerm=31.
+
+2021-06-20 05:07:09,638 INFO Node <naming_persistent_service/nacos1:7848> received PreVoteResponse from nacos2:7848, term=31, granted=true.
+
+2021-06-20 05:07:09,638 INFO Node <naming_persistent_service/nacos1:7848> start vote and grant vote self, term=31.
+
+2021-06-20 05:07:09,639 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos2:7848, term=31, status=Status[ERAFTTIMEDOUT<10001>: A follower's leader_id is reset to NULL as it begins to request_vote.]].
+
+2021-06-20 05:07:10,236 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=31, votedFor=0.0.0.0:0, cost time=619 ms
+
+2021-06-20 05:07:10,243 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=32, votedFor=0.0.0.0:0, cost time=599 ms
+
+2021-06-20 05:07:10,249 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=32, votedFor=nacos1:7848, cost time=607 ms
+
+2021-06-20 05:07:10,249 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=32, votedFor=nacos1:7848, cost time=622 ms
+
+2021-06-20 05:07:10,249 INFO Node <naming_instance_metadata/nacos1:7848> received RequestVoteRequest from nacos3:7848, term=32, currTerm=32.
+
+2021-06-20 05:07:10,251 WARN Node <naming_persistent_service/nacos1:7848> received invalid PreVoteResponse from nacos3:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2021-06-20 05:07:10,257 WARN Node <naming_instance_metadata/nacos1:7848> received invalid PreVoteResponse from nacos3:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2021-06-20 05:07:10,263 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=31, votedFor=nacos2:7848, cost time=26 ms
+
+2021-06-20 05:07:10,275 INFO Node <naming_persistent_service/nacos1:7848> become leader of group, term=32, conf=nacos3:7848,nacos1:7848,nacos2:7848, oldConf=.
+
+2021-06-20 05:07:10,275 INFO Replicator=Replicator [state=null, statInfo=<running=null, firstLogIndex=0, lastLogIncluded=0, lastLogIndex=0, lastTermIncluded=0>, peerId=nacos2:7848, type=Follower]@nacos2:7848 is started
+
+2021-06-20 05:07:10,275 INFO Replicator=Replicator [state=null, statInfo=<running=null, firstLogIndex=0, lastLogIncluded=0, lastLogIndex=0, lastTermIncluded=0>, peerId=nacos3:7848, type=Follower]@nacos3:7848 is started
+
+2021-06-20 05:07:10,277 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=32, votedFor=nacos3:7848, cost time=33 ms
+
+2021-06-20 05:07:10,345 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos1:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2908)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-20 05:07:10,378 INFO onLeaderStart: term=32.
+
+2021-06-20 05:07:10,397 WARN Node <naming_persistent_service/nacos1:7848> received invalid RequestVoteResponse from nacos3:7848, state not in STATE_CANDIDATE but STATE_LEADER.
+
+2021-06-20 05:19:58,122 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_31.
+
+2021-06-20 05:19:58,122 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_31.
+
+2021-06-20 05:19:58,122 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_30.
+
+2021-06-20 05:22:00,878 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_422.
+
+2021-06-20 05:22:00,879 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_422.
+
+2021-06-20 05:22:00,879 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_419.
+
+2021-06-20 05:26:44,227 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_32.
+
+2021-06-20 05:26:44,228 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_32.
+
+2021-06-20 05:26:44,228 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_31.
+
+2021-06-20 05:29:57,352 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_127.
+
+2021-06-20 05:29:57,352 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_127.
+
+2021-06-20 05:29:57,352 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_126.
+
+2021-06-20 05:30:56,671 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_52.
+
+2021-06-20 05:30:56,672 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_52.
+
+2021-06-20 05:30:56,672 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_51.
+
+2021-06-20 05:37:14,065 INFO Destroyed peer request context for naming_service_metadata/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-20 05:37:14,065 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-20 05:37:14,066 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos1:7848 -> nacos3:7848]
+
+2021-06-20 05:37:14,194 INFO Destroyed peer request context for naming_service_metadata/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-20 05:37:14,194 INFO Destroyed peer request context for nacos_config/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-20 05:37:14,195 INFO Destroyed peer request context for naming_persistent_service/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-20 05:37:14,196 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos1:7848 -> nacos2:7848]
+
+2021-06-20 05:37:14,602 INFO Connection disconnected: /172.19.0.2:33204
+
+2021-06-20 05:51:59,685 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_425.
+
+2021-06-20 05:51:59,685 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_425.
+
+2021-06-20 05:51:59,685 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_422.
+
+2021-06-20 06:21:59,835 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_428.
+
+2021-06-20 06:21:59,835 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_428.
+
+2021-06-20 06:21:59,835 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_425.
+
+2021-06-20 06:51:59,759 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_431.
+
+2021-06-20 06:51:59,759 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_431.
+
+2021-06-20 06:51:59,759 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_428.
+
+2021-06-20 07:21:59,784 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_434.
+
+2021-06-20 07:21:59,784 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_434.
+
+2021-06-20 07:21:59,785 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_431.
+
+2021-06-20 07:51:59,882 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_437.
+
+2021-06-20 07:51:59,882 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_437.
+
+2021-06-20 07:51:59,882 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_434.
+
+2021-06-20 08:21:59,979 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_440.
+
+2021-06-20 08:21:59,979 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_440.
+
+2021-06-20 08:21:59,980 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_437.
+
+2021-06-20 08:51:59,824 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_443.
+
+2021-06-20 08:51:59,824 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_443.
+
+2021-06-20 08:51:59,824 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_440.
+
+2021-06-20 09:22:00,110 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_446.
+
+2021-06-20 09:22:00,110 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_446.
+
+2021-06-20 09:22:00,110 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_443.
+
+2021-06-20 09:52:00,029 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_449.
+
+2021-06-20 09:52:00,029 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_449.
+
+2021-06-20 09:52:00,029 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_446.
+
+2021-06-20 10:21:59,856 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_452.
+
+2021-06-20 10:21:59,857 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_452.
+
+2021-06-20 10:21:59,857 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_449.
+
+2021-06-20 10:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_455.
+
+2021-06-20 10:51:59,787 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_455.
+
+2021-06-20 10:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_452.
+
+2021-06-20 11:21:59,865 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_458.
+
+2021-06-20 11:21:59,866 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_458.
+
+2021-06-20 11:21:59,866 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_455.
+
+2021-06-20 11:51:59,662 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_461.
+
+2021-06-20 11:51:59,662 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_461.
+
+2021-06-20 11:51:59,662 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_458.
+
+2021-06-20 12:21:59,705 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_464.
+
+2021-06-20 12:21:59,705 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_464.
+
+2021-06-20 12:21:59,705 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_461.
+
+2021-06-20 12:51:59,591 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_467.
+
+2021-06-20 12:51:59,591 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_467.
+
+2021-06-20 12:51:59,591 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_464.
+
+2021-06-20 13:21:59,867 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_470.
+
+2021-06-20 13:21:59,867 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_470.
+
+2021-06-20 13:21:59,868 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_467.
+
+2021-06-20 13:51:59,625 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_473.
+
+2021-06-20 13:51:59,625 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_473.
+
+2021-06-20 13:51:59,625 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_470.
+
+2021-06-20 14:21:59,845 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_476.
+
+2021-06-20 14:21:59,845 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_476.
+
+2021-06-20 14:21:59,845 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_473.
+
+2021-06-20 14:51:59,595 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_479.
+
+2021-06-20 14:51:59,596 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_479.
+
+2021-06-20 14:51:59,596 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_476.
+
+2021-06-20 15:21:59,795 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_482.
+
+2021-06-20 15:21:59,795 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_482.
+
+2021-06-20 15:21:59,795 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_479.
+
+2021-06-20 15:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_485.
+
+2021-06-20 15:51:59,787 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_485.
+
+2021-06-20 15:51:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_482.
+
+2021-06-20 16:21:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_488.
+
+2021-06-20 16:21:59,787 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_488.
+
+2021-06-20 16:21:59,787 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_485.
+
+2021-06-20 16:51:59,777 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_491.
+
+2021-06-20 16:51:59,778 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_491.
+
+2021-06-20 16:51:59,778 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_488.
+
+2021-06-20 17:22:00,000 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_494.
+
+2021-06-20 17:22:00,000 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_494.
+
+2021-06-20 17:22:00,000 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_491.
+
+2021-06-20 17:51:59,661 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_497.
+
+2021-06-20 17:51:59,661 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_497.
+
+2021-06-20 17:51:59,661 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_494.
+
+2021-06-20 18:21:59,648 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_500.
+
+2021-06-20 18:21:59,648 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_500.
+
+2021-06-20 18:21:59,649 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_497.
+
+2021-06-20 18:51:59,622 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_503.
+
+2021-06-20 18:51:59,622 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_503.
+
+2021-06-20 18:51:59,623 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_500.
+
+2021-06-20 19:21:59,769 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_506.
+
+2021-06-20 19:21:59,769 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_506.
+
+2021-06-20 19:21:59,769 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_503.
+
+2021-06-20 19:51:59,662 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_509.
+
+2021-06-20 19:51:59,662 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_509.
+
+2021-06-20 19:51:59,662 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_506.
+
+2021-06-20 20:21:59,846 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_512.
+
+2021-06-20 20:21:59,846 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_512.
+
+2021-06-20 20:21:59,846 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_509.
+
+2021-06-20 20:51:59,673 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_515.
+
+2021-06-20 20:51:59,673 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_515.
+
+2021-06-20 20:51:59,673 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_512.
+
+2021-06-20 21:21:59,905 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_518.
+
+2021-06-20 21:21:59,905 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_518.
+
+2021-06-20 21:21:59,905 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_515.
+
+2021-06-20 21:51:59,692 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_521.
+
+2021-06-20 21:51:59,692 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_521.
+
+2021-06-20 21:51:59,692 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_518.
+
+2021-06-20 22:21:59,693 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_524.
+
+2021-06-20 22:21:59,693 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_524.
+
+2021-06-20 22:21:59,693 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_521.
+
+2021-06-20 22:51:59,773 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_527.
+
+2021-06-20 22:51:59,773 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_527.
+
+2021-06-20 22:51:59,773 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_524.
+
+2021-06-20 23:21:59,797 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_530.
+
+2021-06-20 23:21:59,797 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_530.
+
+2021-06-20 23:21:59,797 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_527.
+
+2021-06-20 23:51:59,753 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_533.
+
+2021-06-20 23:51:59,753 INFO Renaming /home/nacos/data/protocol/raft/nacos_config/snapshot/temp to /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_533.
+
+2021-06-20 23:51:59,753 INFO Deleting snapshot /home/nacos/data/protocol/raft/nacos_config/snapshot/snapshot_530.
+

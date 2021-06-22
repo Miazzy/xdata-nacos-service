@@ -1,0 +1,20 @@
+2021-05-14 09:29:02,402 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2021-05-14 09:29:02,408 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2021-05-14 09:29:02,512 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2021-05-14 09:31:17,835 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2021-05-14 09:31:17,838 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2021-05-14 09:31:18,015 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2021-05-14 09:31:35,371 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}] 
+
+2021-05-14 09:31:44,410 INFO This node is ready to provide external services
+
+2021-05-14 09:31:50,231 INFO start a new rpc client to member - > : Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1620955910221, naming={voteFor=nacos1:8848, ip=nacos1:8848, heartbeatDueMs=5000, term=2, leaderDueMs=18366, state=LEADER}, raftMetaData={metaDataMap={nacos_config={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_instance_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.1}}
+
+2021-05-14 09:31:50,677 INFO start a new rpc client to member - > : Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1620955910676, raftMetaData={metaDataMap={nacos_config={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_instance_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.1}}
+

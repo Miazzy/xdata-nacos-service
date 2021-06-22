@@ -1,0 +1,6 @@
+2021-06-15 05:02:50,339 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2021-06-15 05:02:50,725 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2021-06-15 05:07:22,986 INFO Raft group naming_persistent_service has leader nacos3:7848
+

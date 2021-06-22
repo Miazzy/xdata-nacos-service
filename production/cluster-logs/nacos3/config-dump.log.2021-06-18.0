@@ -1,0 +1,32 @@
+2021-06-18 00:56:35,448 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-18 00:56:35,449 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-18 00:56:35,454 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-18 00:56:35,458 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+
+2021-06-18 06:56:35,445 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-18 06:56:35,445 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-18 06:56:35,450 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-18 06:56:35,455 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+
+2021-06-18 12:56:35,489 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-18 12:56:35,489 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-18 12:56:35,494 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-18 12:56:35,499 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+
+2021-06-18 18:56:35,410 WARN [dump-ignore] ignore to save cache file. groupKey=system.admin.config+DEFAULT_GROUP, md5=0b3afcf1d6fd667d89b07aa24c84c5d7, lastModifiedOld=1621827899217, lastModifiedNew=1621827899217
+
+2021-06-18 18:56:35,410 INFO [dump-all-ok] system.admin.config+DEFAULT_GROUP, 1621827899217, length=6645, md5=0b3afcf1d6fd667d89b07aa24c84c5d7
+
+2021-06-18 18:56:35,415 WARN [dump-ignore] ignore to save cache file. groupKey=system.legal.config+DEFAULT_GROUP, md5=1b368c09b30690b88cae3e4549d7bf82, lastModifiedOld=1623753116849, lastModifiedNew=1623753116849
+
+2021-06-18 18:56:35,420 INFO [dump-all-ok] system.legal.config+DEFAULT_GROUP, 1623753116849, length=289282, md5=1b368c09b30690b88cae3e4549d7bf82
+

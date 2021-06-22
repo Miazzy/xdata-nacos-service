@@ -1,0 +1,422 @@
+2021-06-22 00:01:31,741 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 00:01:35,854 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 05:06:39,358 INFO {POS} {IP-DISABLED} valid: 172.18.6.71:9001@DEFAULT@xdata-wework-service, region: unknown, msg: client last beat: 1624309580753
+
+2021-06-22 05:06:40,061 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 05:06:40,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 05:06:44,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.254.95:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 05:06:45,771 INFO service: DEFAULT_GROUP@@xdata-wework-service {POS} {IP-ENABLED} valid: 172.18.6.71:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:06:46,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 05:06:46,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 05:06:47,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.6.71:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624309612170
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.6.71:9001@DEFAULT@xdata-wework-service, region: unknown, msg: client last beat: 1624309610784
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.1.51:3000@DEFAULT@xdata-xmysql-service, region: unknown, msg: client last beat: 1624309610034
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624309607752
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-essync-service, region: unknown, msg: client last beat: 1624309608157
+
+2021-06-22 05:07:08,541 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-rest-service, region: unknown, msg: client last beat: 1624309608158
+
+2021-06-22 05:07:08,541 INFO service: DEFAULT_GROUP@@xdata-essync-service {POS} {IP-ENABLED} valid: 172.18.6.70:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:08,541 INFO service: DEFAULT_GROUP@@xdata-rest-service {POS} {IP-ENABLED} valid: 172.18.6.70:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:08,541 INFO service: DEFAULT_GROUP@@xdata-gateway-service {POS} {IP-ENABLED} valid: 172.18.1.103:3880@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:08,541 INFO service: DEFAULT_GROUP@@xdata-xmysql-service {POS} {IP-ENABLED} valid: 172.18.1.51:3000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:08,556 INFO service: DEFAULT_GROUP@@xdata-gateway-service {POS} {IP-ENABLED} valid: 172.18.6.71:3880@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:08,808 INFO service: DEFAULT_GROUP@@xdata-wework-service {POS} {IP-ENABLED} valid: 172.18.6.71:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 05:07:09,602 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 05:07:09,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 05:07:10,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 05:07:11,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 05:07:11,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 08:50:13,350 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 08:50:24,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 09:08:52,998 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:09:08,031 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.254.95:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 09:09:08,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:09:48,036 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:10:03,069 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.45:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 09:10:03,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:10:38,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:10:47,516 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 09:16:06,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:16:47,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:18:31,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:23:59,242 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.45:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 09:23:59,242 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 09:24:12,181 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 10:22:58,054 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624328560582
+
+2021-06-22 10:22:59,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 10:23:04,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 10:23:04,211 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:04,212 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:14,154 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:14,154 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 10:23:19,074 INFO DEFAULT_GROUP@@xdata-rest-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:19,074 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:19,075 INFO DEFAULT_GROUP@@xdata-essync-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:19,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:19,075 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:19,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 10:23:44,857 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:44,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 10:23:44,957 INFO DEFAULT_GROUP@@xdata-rest-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:44,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:44,958 INFO DEFAULT_GROUP@@xdata-essync-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:44,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 10:23:45,157 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 10:23:45,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 11:15:38,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:17:28,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:29:25,293 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:29:28,813 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:49:42,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:52:22,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 11:52:32,336 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:00:13,360 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:00:14,424 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:00:14,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:00:19,990 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:00:22,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:01:20,834 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:04:00,918 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:04:48,181 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:06:29,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:09:27,180 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:11:45,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:19:41,163 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:19:52,511 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:20:54,895 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624335636052
+
+2021-06-22 12:20:55,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:21:09,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:21:37,745 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:21:40,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:23:08,025 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:27:58,479 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:29:04,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:29:36,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:29:51,363 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.45:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 12:29:51,363 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 12:34:46,925 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:34:49,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:37:36,483 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:37:36,483 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:37:51,534 INFO DEFAULT_GROUP@@xdata-rest-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 12:37:51,534 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:37:51,535 INFO DEFAULT_GROUP@@xdata-essync-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 12:37:51,535 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 12:48:30,834 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 12:48:30,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:02:34,167 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:02:34,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:06:41,349 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-rest-service, region: unknown, msg: client last beat: 1624341986343
+
+2021-06-22 14:06:42,352 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:06:46,350 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-essync-service, region: unknown, msg: client last beat: 1624341988847
+
+2021-06-22 14:06:47,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:06:57,429 INFO DEFAULT_GROUP@@xdata-rest-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.6.70:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:06:57,430 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:07:02,445 INFO DEFAULT_GROUP@@xdata-essync-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.6.70:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:07:02,445 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:07:12,311 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:07:12,311 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:07:27,353 INFO DEFAULT_GROUP@@xdata-essync-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.6.71:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:07:27,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:07:27,353 INFO DEFAULT_GROUP@@xdata-rest-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.6.71:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:07:27,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 14:33:04,083 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.100.122.216:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:33:04,083 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,10.100.122.216:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:37:09,193 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,10.100.122.216:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:37:24,144 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.100.122.216:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:37:24,144 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:48:36,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 14:48:48,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.254.95:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:49:03,156 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.254.95:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:49:03,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:53:08,221 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 14:53:23,269 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.103:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 14:53:23,269 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 15:07:43,428 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 15:07:54,856 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:07:57,478 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:07:58,380 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.50:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 15:07:58,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 15:07:59,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:08:01,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 15:08:02,162 INFO {POS} {IP-DISABLED} valid: 172.18.1.51:3000@DEFAULT@xdata-xmysql-service, region: unknown, msg: client last beat: 1624345663781
+
+2021-06-22 15:08:03,189 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.51:3000_true,
+
+2021-06-22 15:08:18,222 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.51:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 15:08:18,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,
+
+2021-06-22 15:10:50,613 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:11:04,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:17:49,585 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:17:50,687 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:17:54,099 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:28:40,443 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:37:28,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-22 15:53:46,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 15:53:49,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 15:54:01,718 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.104:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 15:54:01,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 15:54:04,023 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.104:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 15:54:04,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 15:59:15,197 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 15:59:15,197 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 15:59:30,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 15:59:33,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 16:00:00,118 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 16:00:27,895 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624348812413
+
+2021-06-22 16:00:28,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 16:00:36,508 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 16:02:37,908 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624348942434
+
+2021-06-22 16:02:39,006 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 16:02:40,830 INFO service: DEFAULT_GROUP@@xdata-gateway-service {POS} {IP-ENABLED} valid: 172.18.1.103:3880@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 16:02:41,911 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 16:02:54,957 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 16:02:54,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:03:10,480 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:04:20,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:04:22,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:12:43,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,
+
+2021-06-22 16:19:48,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:19:58,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,
+
+2021-06-22 16:20:48,133 INFO {POS} {IP-DISABLED} valid: 172.18.1.103:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624350030283
+
+2021-06-22 16:20:49,173 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:20:53,359 INFO service: DEFAULT_GROUP@@xdata-gateway-service {POS} {IP-ENABLED} valid: 172.18.1.103:3880@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-22 16:20:54,384 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:24:35,834 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.103:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 16:24:35,834 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 16:25:19,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:25:30,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 16:25:36,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 16:25:49,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:25:55,781 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 16:25:59,800 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 16:30:41,915 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 16:30:41,915 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.104:3000_true,
+
+2021-06-22 16:30:51,943 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:34:51,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:34:52,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 16:34:55,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.104:3000_true,
+
+2021-06-22 17:01:50,210 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-22 17:01:50,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 17:01:50,964 INFO {POS} {IP-DISABLED} valid: 172.18.1.104:3000@DEFAULT@xdata-xmysql-service, region: unknown, msg: client last beat: 1624352493941
+
+2021-06-22 17:01:52,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.104:3000_true,
+
+2021-06-22 17:02:05,151 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.104:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:05,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,
+
+2021-06-22 17:02:05,452 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.104:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:05,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 17:02:07,060 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.1.104:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:07,060 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,
+
+2021-06-22 17:02:33,339 INFO DEFAULT_GROUP@@xdata-xmysql-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:3000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:33,339 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.104:3000_true,
+
+2021-06-22 17:02:33,439 INFO DEFAULT_GROUP@@xdata-wework-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:33,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,172.18.1.103:9001_true,172.18.1.104:9001_true,10.100.122.216:7001_true,
+
+2021-06-22 17:02:35,546 INFO DEFAULT_GROUP@@xdata-gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.1.104:3880:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-22 17:02:35,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+

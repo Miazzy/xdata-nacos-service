@@ -1,0 +1,26 @@
+2021-06-20 05:07:09,310 INFO {POS} {IP-DISABLED} valid: 172.18.6.71:9001@DEFAULT@xdata-wework-service, region: unknown, msg: client last beat: 1624136812194
+
+2021-06-20 05:07:09,311 INFO {POS} {IP-DISABLED} valid: 172.18.6.71:3880@DEFAULT@xdata-gateway-service, region: unknown, msg: client last beat: 1624136812190
+
+2021-06-20 05:07:09,311 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-essync-service, region: unknown, msg: client last beat: 1624136812850
+
+2021-06-20 05:07:09,311 INFO {POS} {IP-DISABLED} valid: 172.18.6.70:7001@DEFAULT@xdata-rest-service, region: unknown, msg: client last beat: 1624136812853
+
+2021-06-20 05:07:10,206 INFO service: DEFAULT_GROUP@@xdata-wework-service {POS} {IP-ENABLED} valid: 172.18.6.71:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-20 05:07:10,210 INFO service: DEFAULT_GROUP@@xdata-gateway-service {POS} {IP-ENABLED} valid: 172.18.6.71:3880@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-20 05:07:10,855 INFO service: DEFAULT_GROUP@@xdata-rest-service {POS} {IP-ENABLED} valid: 172.18.6.70:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-20 05:07:10,855 INFO service: DEFAULT_GROUP@@xdata-essync-service {POS} {IP-ENABLED} valid: 172.18.6.70:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-20 05:07:11,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-rest-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-20 05:07:11,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-essync-service, ips: 172.18.6.71:7001_true,172.18.6.70:7001_true,172.18.1.103:7001_true,172.18.1.104:7001_true,10.100.122.216:7001_true,
+
+2021-06-20 05:07:12,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-xmysql-service, ips: 172.18.6.71:3000_true,172.18.254.95:3000_true,172.18.6.70:3000_true,172.18.1.103:3000_true,172.18.1.50:3000_true,172.18.1.51:3000_true,
+
+2021-06-20 05:07:12,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-gateway-service, ips: 172.18.1.45:3880_true,172.18.6.71:3880_true,172.18.6.70:3880_true,172.18.254.95:3880_true,172.18.1.103:3880_true,172.18.1.104:3880_true,
+
+2021-06-20 05:07:12,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@xdata-wework-service, ips: 172.18.6.71:9001_true,172.18.6.70:9001_true,10.100.122.216:7001_true,
+

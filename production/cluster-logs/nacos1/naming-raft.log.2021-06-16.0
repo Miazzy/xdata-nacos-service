@@ -1,0 +1,14 @@
+2021-06-16 05:24:24,256 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2021-06-16 05:24:24,332 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2021-06-16 15:15:17,163 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@xdata-wework-service
+
+2021-06-16 15:18:49,396 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@xdata-wework-service
+
+2021-06-16 15:24:01,732 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@xdata-wework-service
+
+2021-06-16 15:32:49,384 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@xdata-wework-service
+
+2021-06-16 16:10:19,062 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@xdata-wework-service
+
